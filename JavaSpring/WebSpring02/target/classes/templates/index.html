@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleft.org">
+<!--add dependencies thymeleft same as version spring boot-->
+<head>
+    <meta charset="UTF-8">
+    <title>html jsp</title>
+</head>
+<body>
+<h1>Ini halaman html</h1>
+<h2 th:text="hai +${#request.getParameter('nama')}">hai</h2>
+<h2 th:text="umur +${#request.getParameter('umur')}">hai</h2>
+</body>
+</html>
